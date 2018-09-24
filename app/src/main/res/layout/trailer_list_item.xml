@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="10dp">
+
+
+    <TextView
+        android:id="@+id/tv_trailer_name"
+        android:layout_width="163dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_weight="1"
+        android:text="@string/tv_trailer_name"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp" />
+
+    <ImageButton
+        android:id="@+id/ib_playButton"
+        android:layout_width="13dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@android:color/transparent"
+        android:onClick="playTrailer"
+        app:srcCompat="@drawable/ic_play_circle_outline_24dp" />
+
+    <ImageButton
+        android:id="@+id/ib_shareButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_weight="1"
+        android:background="@android:color/transparent"
+        android:onClick="shareTrailer"
+        app:srcCompat="@drawable/ic_share_24dp" />
+
+</LinearLayout>
+

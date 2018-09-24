@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">PopularMoviesApp</string>
+    <string name="tv_trailer_name">Official Trailer 1</string>
+    <string name="todo">TODO</string>
+    <string name="popular">Popular</string>
+    <string name="top_rated">Top Rated</string>
+    <string name="upcoming">Upcoming</string>
+    <string name="now_playing">Now Playing</string>
+    <string name="favourites">Favourites</string>
+    <string name="overview">Captain Rannulph Junuh meets a mysterious caddie who teaches him the art of mastering the perfect golf swing and finding meaning in one\'s existence</string>
+    <string name="tv_trailer_label">Trailers</string>
+    <string name="tv_reviews_label">Reviews</string>
+    <string name="network_error_message">Please check your internet connection</string>
+
+    <!--The Movie DataBase API Key-->
+    <string name="api_key">Please Enter your TMDb API Key</string>
+
+
+
+</resources>
+
+
+<!--who teaches him the art of mastering the perfect golf swing and finding meaning in one\'s existence.-->

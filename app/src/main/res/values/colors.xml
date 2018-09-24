@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">#3F51B5</color>-->
+    <!--<color name="colorPrimaryDark">#303F9F</color>-->
+    <!--<color name="colorAccent">#FF4081</color>-->
+
+    <color name="colorPrimary">#B5A642</color>
+    <color name="colorPrimaryDark">#E4D00A</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="background">#414833</color>
+    <color name="colorTextPrimary">#4B5320</color>
+    <color name="colorTextSecondary">#808000</color> Olive
+</resources>
