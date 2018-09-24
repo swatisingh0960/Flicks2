@@ -13,7 +13,7 @@
     <string name="network_error_message">Please check your internet connection</string>
 
     <!--The Movie DataBase API Key-->
-    <string name="api_key">Please Enter your TMDb API Key</string>
+    <string name="api_key">Please add your TMDb API Key</string>
 
 
 
