@@ -15,4 +15,4 @@ Please add The_Movie_DB_API key in the 'strings.xml' file.
 Open-source libraries used
 - [Android Async HTTP](https://github.com/loopj/android-async-http) - Simple asynchronous HTTP requests with JSON parsing
 - [Picasso](http://square.github.io/picasso/) - Image loading and caching library for Android
-- [Networking with the Volley Library] (https://guides.codepath.com/android/networking-with-the-volley-library) - a library that makes networking for Android apps easier and most importantly, faster.
+- [Networking with the Volley Library](https://guides.codepath.com/android/networking-with-the-volley-library) - a library that makes networking for Android apps easier and most importantly, faster.
