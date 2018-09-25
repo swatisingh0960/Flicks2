@@ -366,18 +366,22 @@ public class MovieActivity extends AppCompatActivity implements MovieAdapter.Mov
         super.onSaveInstanceState(outState);
     }
 
-    @Override
+/*    @Override
     protected void onRestoreInstanceState(Bundle state) {
         super.onRestoreInstanceState(state);
         if (state != null)
             mListState = state.getParcelable("position");
-    }
+    } */
 
 
     @Override
     protected void onResume() {
         super.onResume();
-        loadMoviesData();
+        //loadMoviesData();
+         if(POP_TOPR_UPC_NOWP_MOVIES == 4){
+            showLoadIndicator();
+            new FavouriteMoviesFetchTask().execute();
+        }
         // make sure data has been reloaded into adapter first
         // ONLY call this part once the data items have been loaded back into the adapter
         // for example, inside a success callback from the network
