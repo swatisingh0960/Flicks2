@@ -404,7 +404,7 @@ public class MovieDetailActivity extends AppCompatActivity{
                     protected void onPostExecute(Void aVoid) {
                         super.onPostExecute(aVoid);
                         ScrollView scrollView = (ScrollView) findViewById(R.id.scrollView);
-                        scrollView.smoothScrollTo(0,0);
+//                         scrollView.smoothScrollTo(0,0);
                     }
                 }
 
